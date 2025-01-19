@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <title>SeenIT</title>
 </head>
 <body>
     <h1>SeenIT - a organização melhora tudo</h1>
@@ -13,7 +14,12 @@
         separe quais filmes deseja ver, ou ja assistiu. Aperte o botao
         "criar categoria" e começe que começe a organização.
     </p>
-    <button id="criar">Criar categoria</button>
-    <button id="categorias">minhas categorias</button>
+    <div id="organizar">
+        <label for="">Digite o nome da categoria:<input type="text" id="nomecategoria"></input></label>
+        <input type="button" id="criar" value="criar categoria"> <br>
+        <button class="minimizarcategorias">minhas categorias</button>
+    </div>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="categorias.js"></script>
 </body>
 </html>
