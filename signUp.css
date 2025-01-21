@@ -1,0 +1,142 @@
+body {
+    background-image: url(imagens/oliver-koh-_jfrijbyVfs-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#titleHigh {
+    color: rgb(255, 255, 255);
+    margin-top: 130px;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 2px 2px 10px rgb(59, 59, 59);
+}
+
+a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#boxLogin {
+    display: flex;
+    height: 55vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#boxLogin2 {
+    display: flex;
+    border: 1px solid white;
+    background-color: rgb(0, 0, 0, 0.2);
+    flex-flow: column;
+    border-radius: 30px;
+    padding: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.inputsLabel,
+h1,
+#dontAccount {
+    display: flex;
+    color: rgb(206, 206, 206);
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+#dontAccount {
+    font-size: 12px;
+}
+
+.idUsuario {
+    padding: 13px;
+    background-color: rgba(83, 83, 83, 0.5);
+    color: white;
+    margin: 15px;
+    border-radius: 40px;
+    padding-left: 30px;
+    padding-right: 70px;
+}
+
+.idUsuario::placeholder {
+    color: rgb(185, 184, 184);
+}
+
+.idUsuario:focus {
+    box-shadow: 3px 3px 8px rgb(197, 197, 197);
+}
+
+#submit {
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 90px;
+    padding: 4px;
+    background-color: rgba(122, 122, 122, 0.8);
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    border: 1px solid rgb(105, 105, 105);
+}
+
+#submit:hover {
+    animation: submit-hover 2s linear infinite;
+}
+
+@keyframes submit-hover {
+    0% {
+        box-shadow: 0px 0px 0px white;
+        border: 1px solid rgb(105, 105, 105);
+    }
+
+    50% {
+        box-shadow: 0px 0px 8px rgb(204, 204, 204);
+        border: 1px solid white;
+    }
+
+    100% {
+        box-shadow: 0px 0px 0px white;
+        border: 1px solid rgb(105, 105, 105);
+    }
+}
+
+#lock {
+    position: absolute;
+    margin-top: 242px;
+    margin-left: 310px;
+    color: rgb(185, 184, 184);
+    font-size: 23px;
+}
+
+#person { 
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 310px;
+    color: rgb(185, 184, 184);
+    font-size: 23px;
+}
+
+#dateB {
+    margin-left: 182px;
+    padding: 13px;
+    color: rgb(185, 184, 184);
+}
+
+#dateText{
+    position: absolute;
+    margin-top: 318px;
+    margin-right: 160px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(196, 194, 194)
+}
