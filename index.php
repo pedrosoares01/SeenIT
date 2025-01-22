@@ -19,6 +19,10 @@
         <input type="color" id="corcategoria" value="#000000">
         <input type="button" id="criar" value="criar categoria"> <br>
         <button class="minimizarcategorias">minhas categorias</button>
+
+        <button id="LogarIndex"><a href="signUp.php">Cadastrar-se</a></button>
+        <button id="LogarIndex"><a href="login.php">Logar</a></button>
+
     </div>
     <script src="jquery-3.7.1.min.js"></script>
     <script src="categorias.js"></script>

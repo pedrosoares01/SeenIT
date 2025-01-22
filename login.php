@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SeenIT</title>
-    <link rel="stylesheet" href="signUp.css">
+    <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=lock" />
 
 
@@ -13,7 +13,7 @@
     <h1 id="titleHigh">SEENIT: A ORGANIZAÇÃO MELHORA TUDO</h1>
     <div id="boxLogin">
         <div id="boxLogin2">
-            <h1 id="loginTitle">Cadastre-se</h1>
+            <h1 id="loginTitle">Login</h1>
 
             <input placeholder="Nome de usuário" type="text" id="user" class="idUsuario" required>
             <span id="lock" class="material-symbols-outlined">
@@ -22,14 +22,10 @@
 
             <input placeholder="Senha" type="password" id="password" class="idUsuario" required>
             <i id="person" class="fa-solid fa-person"></i>
-
-            <span id="dateText">Data de nascimento</span>
-            <input  type="date" id="dateB" class="idUsuario">
             
-            
-            <input type="submit" id="submit" value="Cadastrar">
+            <input type="submit" id="submit" value="Login">
 
-            <p id="dontAccount">Já tem uma conta? &nbsp <a href="login.html">Logar</a></p>
+            <p id="dontAccount">Não tem uma conta? &nbsp <a href="signUp.php">Criar conta</a></p>
         </div>
     </div>
 </body>

@@ -30,10 +30,8 @@ a:hover {
 }
 
 #boxLogin2 {
-    display: flex;
     border: 1px solid white;
     background-color: rgb(0, 0, 0, 0.2);
-    flex-flow: column;
     border-radius: 30px;
     padding: 30px;
     padding-left: 60px;
@@ -87,6 +85,7 @@ h1 {
     color: rgb(255, 255, 255);
     margin-bottom: 10px;
     border: 1px solid rgb(105, 105, 105);
+    margin-left: 130px;
 }
 
 #submit:hover {
@@ -112,16 +111,16 @@ h1 {
 
 #lock {
     position: absolute;
-    margin-top: 242px;
-    margin-left: 310px;
+    margin-top: 102px;
+    margin-left: 336px;
     color: rgb(185, 184, 184);
     font-size: 23px;
 }
 
 #person { 
     position: absolute;
-    margin-top: 165px;
-    margin-left: 310px;
+    margin-top: 27px;
+    margin-left: 340px;
     color: rgb(185, 184, 184);
     font-size: 23px;
 }
@@ -134,9 +133,14 @@ h1 {
 
 #dateText{
     position: absolute;
-    margin-top: 318px;
-    margin-right: 160px;
+    margin-top: 178px;
+    margin-right: 270px;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(196, 194, 194)
+}
+
+form {
+    display: flex;
+    flex-flow: column;
 }
