@@ -4,14 +4,6 @@ body {
     background-size: cover;
 }
 
-#titleHigh {
-    color: rgb(255, 255, 255);
-    margin-top: 130px;
-    font-size: 40px;
-    text-align: center;
-    font-style: italic;
-    text-shadow: 2px 2px 10px rgb(59, 59, 59);
-}
 
 a {
     color: rgb(206, 206, 206);
@@ -40,6 +32,7 @@ a:hover {
     padding-right: 60px;
     align-items: center;
     padding-top: 10px;
+    margin-top: 330px;
 }
 
 .inputsLabel,
