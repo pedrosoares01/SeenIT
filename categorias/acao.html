@@ -1,52 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="categorias.css">
     <title>Document</title>
 </head>
+
 <body>
+    <button id="toggleSidebar">☰ Menu</button>
     <nav class="navbar">
         <ul class="navbar-nav">
-            <li>
-                <a href="../index.html" class="nav-link">
-                    <span class="link-text">Principal</span>
-                </a>
-            </li>
+            <li><a href="../index.html" class="nav-link">Inicio</a></li>
             <li class="cat">Categorias:</li>
-            <li>
-                <a href="comedia.html" class="nav-link">
-                    <span class="link-text">Comédia</span>
-                </a>
-            </li>
-            <li>
-                <a href="drama.html" class="nav-link">
-                    <span class="link-text">Drama</span>
-                </a>
-            </li>
-            <li>
-                <a href="romance.html" class="nav-link">
-                    <span class="link-text">Romance</span>
-                </a>
-            </li>
-            <li>
-                <a href="scifi.html" class="nav-link">
-                    <span class="link-text">SciFi</span>
-                </a>
-            </li>
-            <li>
-                <a href="suspense.html" class="nav-link">
-                    <span class="link-text">Suspense</span>
-                </a>
-            </li>
-            <li>
-                <a href="terror.html" class="nav-link">
-                    <span class="link-text">Terror</span>
-                </a>
-            </li>
+            <li><a href="comedia.html" class="nav-link">Comédia</a></li>
+            <li><a href="drama.html" class="nav-link">Drama</a></li>
+            <li><a href="romance.html" class="nav-link">Romance</a></li>
+            <li><a href="scifi.html" class="nav-link">Sci-Fi</a></li>
+            <li><a href="suspense.html" class="nav-link">Suspense</a></li>
+            <li><a href="terror.html" class="nav-link">Terror</a></li>
         </ul>
-    </nav>    
-    <p>teste</p>
+    </nav>
+
+    <header>
+        <h1>SeenIT - Organização para sua maratona</h1>
+    </header>
+    <main>
+        <section class="seções">
+            <article class="filme">
+                <img src="../imagens/batman.jpg" alt="">
+                <p>Batman - O Cavaleiro Das Trevas</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/ultimato.jpg" alt="">
+                <p>Vingadores: Ultimato</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/guerra infinita.jpg" alt="">
+                <p>Vingadores: Guerra Infinita</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/GladiadorPoster.jpg" alt="">
+                <p>Gladiador</p>
+            </article>
+        </section>
+        <section class="seções">
+            <article class="filme">
+                <img src="../imagens/bastardos inglorios.webp" alt="">
+                <p>Bastardos Inglórios</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/logan.jpeg" alt="">
+                <p>Logan</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/matrix.webp" alt="">
+                <p>Matrix</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/somdaliberdade.webp" alt="">
+                <p>Som da Liberdade</p>
+            </article>
+        </section>
+        <section class="seções">
+            <article class="filme">
+                <img src="../imagens/tropadeelite.jpeg" alt="">
+                <p>Tropa de Elite</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/piratascaribe.jpg" alt="">
+                <p>Piratas do Caribe: A Maldição do Pérola Negra</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/deadpool-poster.webp" alt="">
+                <p>Deadpool</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/UNCHARTED KEY ART.jpeg" alt="">
+                <p>Uncharted - Fora do Mapa</p>
+            </article>
+        </section>
+    </main>
+    <script>
+        document.getElementById("toggleSidebar").addEventListener("click", function () {
+            document.querySelector(".navbar").classList.toggle("active");
+        });
+    </script>
+    <script src="../jquery-3.7.1.min.js"></script>
+    <script src="categorias.js"></script>
+    
 </body>
+
 </html>

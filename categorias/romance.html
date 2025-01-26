@@ -7,46 +7,82 @@
     <title>Document</title>
 </head>
 <body>
+    <button id="toggleSidebar">☰ Menu</button>
     <nav class="navbar">
         <ul class="navbar-nav">
-            <li>
-                <a href="../index.html" class="nav-link">
-                    <span class="link-text">Principal</span>
-                </a>
-            </li>
+            <li><a href="../index.html" class="nav-link">Inicio</a></li>
             <li class="cat">Categorias:</li>
-            <li>
-                <a href="acao.html" class="nav-link">
-                    <span class="link-text">Ação</span>
-                </a>
-            </li>
-            <li>
-                <a href="comedia.html" class="nav-link">
-                    <span class="link-text">Comédia</span>
-                </a>
-            </li>
-            <li>
-                <a href="drama.html" class="nav-link">
-                    <span class="link-text">Drama</span>
-                </a>
-            </li>
-            <li>
-                <a href="scifi.html" class="nav-link">
-                    <span class="link-text">SciFi</span>
-                </a>
-            </li>
-            <li>
-                <a href="suspense.html" class="nav-link">
-                    <span class="link-text">Suspense</span>
-                </a>
-            </li>
-            <li>
-                <a href="terror.html" class="nav-link">
-                    <span class="link-text">Terror</span>
-                </a>
-            </li>
+            <li><a href="acao.html" class="nav-link">Ação</a></li>
+            <li><a href="comedia.html" class="nav-link">Comédia</a></li>
+            <li><a href="drama.html" class="nav-link">Drama</a></li>
+            <li><a href="scifi.html" class="nav-link">Sci-Fi</a></li>
+            <li><a href="suspense.html" class="nav-link">Suspense</a></li>
+            <li><a href="terror.html" class="nav-link">Terror</a></li>
         </ul>
-    </nav>    
-    <p>teste</p>
+    </nav>
+
+    <header>
+        <h1>SeenIT - Organização para sua maratona</h1>
+    </header>
+    <main>
+        <section class="seções">
+            <article class="filme">
+                <img src="../imagens/diariodepaixao.jpg" alt="">
+                <p>Diário de uma Paixão</p>
+            </article>
+            <article class="filme"> 
+                <img src="../imagens/Para_todos_os_garotos_que_ja_amei_poster.webp" alt="">
+                <p>Para Todos os Garotos que já Amei</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/continecia.webp" alt="">
+                <p>Continência ao Amor</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/de repente 30.jpg" alt="">
+                <p>De Repente 30</p>
+            </article>
+        </section>
+        <section class="seções">
+            <article class="filme">
+                <img src="../imagens/10-coisas-que-eu-odeio-em-voce-filmes.jpg" alt="">
+                <p>10 Coisas que Odeio em Você</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/como perder um homem em 10 dias.webp" alt="">
+                <p>Como Perder um Homem em 10 Dias</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/A princesa e a plebeia.webp" alt="">
+                <p>A Princesa e a Plebeia</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/depois do universo.webp" alt="">
+                <p>Depois do Universo</p>
+            </article>
+        </section>
+        <section class="seções">
+            <article class="filme">
+                <img src="../imagens/aproposta.webp" alt="">
+                <p>A Proposta</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/ummatch.jpg" alt="">
+                <p>Um match Surpresa</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/garota sec20.png" alt="">
+                <p>A Garota do Seculo 20</p>
+            </article>
+        </section>
+            
+    </main>
+    <script>
+        document.getElementById("toggleSidebar").addEventListener("click", function() {
+            document.querySelector(".navbar").classList.toggle("active");
+        });
+    </script>   
+    <script src="../jquery-3.7.1.min.js"></script>
+    <script src="categorias.js"></script>
 </body>
 </html>

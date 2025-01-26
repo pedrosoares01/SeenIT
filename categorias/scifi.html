@@ -1,52 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="categorias.css">
     <title>Document</title>
 </head>
+
 <body>
+    <button id="toggleSidebar">☰ Menu</button>
     <nav class="navbar">
         <ul class="navbar-nav">
-            <li>
-                <a href="../index.html" class="nav-link">
-                    <span class="link-text">Principal</span>
-                </a>
-            </li>
+            <li><a href="../index.html" class="nav-link">Inicio</a></li>
             <li class="cat">Categorias:</li>
-            <li>
-                <a href="acao.html" class="nav-link">
-                    <span class="link-text">Ação</span>
-                </a>
-            </li>
-            <li>
-                <a href="comedia.html" class="nav-link">
-                    <span class="link-text">Comédia</span>
-                </a>
-            </li>
-            <li>
-                <a href="drama.html" class="nav-link">
-                    <span class="link-text">Drama</span>
-                </a>
-            </li>
-            <li>
-                <a href="romance.html" class="nav-link">
-                    <span class="link-text">Romance</span>
-                </a>
-            </li>
-            <li>
-                <a href="suspense.html" class="nav-link">
-                    <span class="link-text">Suspense</span>
-                </a>
-            </li>
-            <li>
-                <a href="terror.html" class="nav-link">
-                    <span class="link-text">Terror</span>
-                </a>
-            </li>
+            <li><a href="acao.html" class="nav-link">Ação</a></li>
+            <li><a href="comedia.html" class="nav-link">Comédia</a></li>
+            <li><a href="drama.html" class="nav-link">Drama</a></li>
+            <li><a href="romance.html" class="nav-link">Romance</a></li>
+            <li><a href="suspense.html" class="nav-link">Suspense</a></li>
+            <li><a href="terror.html" class="nav-link">Terror</a></li>
         </ul>
-    </nav>    
-    <p>teste</p>
+    </nav>
+
+    <header>
+        <h1>SeenIT - Organização para sua maratona</h1>
+    </header>
+    <main>
+        <section class="seções">
+            <article class="filme">
+                <img src="../imagens/devoltafutoro.webp" alt="">
+                <p>De Volta para o Futuro</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/interestelar.jpg" alt="">
+                <p>Interestelar</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/walle.webp" alt="">
+                <p>Wall-E</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/jurassic park.jpg" alt="">
+                <p>Jurassic Park - Parque dos Dinossauros</p>
+            </article>
+        </section>
+        <section class="seções">
+            <article class="filme">
+                <img src="../imagens/guardioes.jpg" alt="">
+                <p>Guardiões da Galáxia</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/madmax.jpg" alt="">
+                <p>Mad Max: Estrada da Fúria</p>
+            </article>
+            <article    >
+                <img src="../imagens/pantera negra.jpeg" alt="">
+                <p>Pantera Negra</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/blade runner.jpg" alt="">
+                <p>Blade Runner 2049</p>
+            </article>
+        </section>
+        <section class="seções">
+            <article class="filme">
+                <img src="../imagens/adastra.jpg" alt="">
+                <p>Ad Astra: Rumo as Estrelas</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/achegada.jpg" alt="">
+                <p>A Chegada</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/inception.webp" alt="">
+                <p>Inception</p>
+            </article>
+        </section>
+
+    </main>
+    <script>
+        document.getElementById("toggleSidebar").addEventListener("click", function () {
+            document.querySelector(".navbar").classList.toggle("active");
+        });
+    </script>
+    <script src="../jquery-3.7.1.min.js"></script>
+    <script src="categorias.js"></script>
 </body>
+
 </html>

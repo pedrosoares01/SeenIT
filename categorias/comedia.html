@@ -7,46 +7,87 @@
     <title>Document</title>
 </head>
 <body>
+    <button id="toggleSidebar">☰ Menu</button>
     <nav class="navbar">
         <ul class="navbar-nav">
-            <li>
-                <a href="../index.html" class="nav-link">
-                    <span class="link-text">Principal</span>
-                </a>
-            </li>
+            <li><a href="../index.html" class="nav-link">Inicio</a></li>
             <li class="cat">Categorias:</li>
-            <li>
-                <a href="acao.html" class="nav-link">
-                    <span class="link-text">Ação</span>
-                </a>
-            </li>
-            <li>
-                <a href="drama.html" class="nav-link">
-                    <span class="link-text">Drama</span>
-                </a>
-            </li>
-            <li>
-                <a href="romance.html" class="nav-link">
-                    <span class="link-text">Romance</span>
-                </a>
-            </li>
-            <li>
-                <a href="scifi.html" class="nav-link">
-                    <span class="link-text">SciFi</span>
-                </a>
-            </li>
-            <li>
-                <a href="suspense.html" class="nav-link">
-                    <span class="link-text">Suspense</span>
-                </a>
-            </li>
-            <li>
-                <a href="terror.html" class="nav-link">
-                    <span class="link-text">Terror</span>
-                </a>
-            </li>
+            <li><a href="acao.html" class="nav-link">Ação</a></li>
+            <li><a href="drama.html" class="nav-link">Drama</a></li>
+            <li><a href="romance.html" class="nav-link">Romance</a></li>
+            <li><a href="scifi.html" class="nav-link">Sci-Fi</a></li>
+            <li><a href="suspense.html" class="nav-link">Suspense</a></li>
+            <li><a href="terror.html" class="nav-link">Terror</a></li>
         </ul>
-    </nav>    
-    <p>teste</p>
+    </nav>
+
+    <header>
+        <h1>SeenIT - Organização para sua maratona</h1>
+    </header>
+    <main>
+        <section class="seções">
+            <article class="filme">
+                <img src="../imagens/forrest.jpeg" alt="">
+                <p>Forrest Gump - O Contador de Histórias</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/O_auto_da_compadecida.jpg" alt="">
+                <p>O Auto da Compadecida</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/intocaveis.jpeg" alt="">
+                <p>Intocáveis</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/toystory.jpg" alt="">
+                <p>Toy Story - Um Mundo de Aventuras</p>
+            </article>
+        </section>
+        <section class="seções">
+            <article class="filme">
+                <img src="../imagens/divertida.webp" alt="">
+                <p>Divertida Mente</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/monstros.webp" alt="">
+                <p>Monstros S.A.</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/shreck.jpg" alt="">
+                <p>Shrek</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/meumalvado.jpg" alt="">
+                <p>Meu Malvado Favorito</p>
+            </article>
+        </section>
+        <section class="seções">
+            <article class="filme">
+                <img src="../imagens/zootopia.jpg" alt="">
+                <p>Zootopia: Essa Cidade é o Bicho</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/as branquelas.jpeg" alt="">
+                <p>As Branquelas</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/Minha_Mãe_é_uma_Peça.jpg" alt="">
+                <p>Minha Mãe É uma Peça</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/free guy.webp" alt="">
+                <p>Free Guy - Assumindo o Controle</p>
+            </article>
+        </section>
+            
+        
+    </main>
+    <script>
+        document.getElementById("toggleSidebar").addEventListener("click", function() {
+            document.querySelector(".navbar").classList.toggle("active");
+        });
+    </script>
+    <script src="../jquery-3.7.1.min.js"></script>
+    <script src="categorias.js"></script>
 </body>
 </html>

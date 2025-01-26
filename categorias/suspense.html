@@ -7,46 +7,82 @@
     <title>Document</title>
 </head>
 <body>
+    <button id="toggleSidebar">☰ Menu</button>
     <nav class="navbar">
         <ul class="navbar-nav">
-            <li>
-                <a href="../index.html" class="nav-link">
-                    <span class="link-text">Principal</span>
-                </a>
-            </li>
+            <li><a href="../index.html" class="nav-link">Inicio</a></li>
             <li class="cat">Categorias:</li>
-            <li>
-                <a href="acao.html" class="nav-link">
-                    <span class="link-text">Ação</span>
-                </a>
-            </li>
-            <li>
-                <a href="comedia.html" class="nav-link">
-                    <span class="link-text">Comédia</span>
-                </a>
-            </li>
-            <li>
-                <a href="drama.html" class="nav-link">
-                    <span class="link-text">Drama</span>
-                </a>
-            </li>
-            <li>
-                <a href="romance.html" class="nav-link">
-                    <span class="link-text">Romance</span>
-                </a>
-            </li>
-            <li>
-                <a href="scifi.html" class="nav-link">
-                    <span class="link-text">SciFi</span>
-                </a>
-            </li>
-            <li>
-                <a href="terror.html" class="nav-link">
-                    <span class="link-text">Terror</span>
-                </a>
-            </li>
+            <li><a href="acao.html" class="nav-link">Ação</a></li>
+            <li><a href="comedia.html" class="nav-link">Comédia</a></li>
+            <li><a href="drama.html" class="nav-link">Drama</a></li>
+            <li><a href="romance.html" class="nav-link">Romance</a></li>
+            <li><a href="scifi.html" class="nav-link">Sci-Fi</a></li>
+            <li><a href="terror.html" class="nav-link">Terror</a></li>
         </ul>
-    </nav>    
-    <p>teste</p>
+    </nav>
+
+    <header>
+        <h1>SeenIT - Organização para sua maratona</h1>
+    </header>
+    <main>
+        <section class="seções">
+            <article class="filme">
+                <img src="../imagens/animal.webp" alt="">
+                <p>Animais noturnos</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/seven.webp" alt="">
+                <p>Seven</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/clubeluta.webp" alt="">
+                <p>Clube da Luta</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/Prenda-me se for capaz Catch Me If You Can Brasil Blu-Ray Capa Cover.jpg" alt="">
+                <p>Prenda-me Se For Capaz</p>
+            </article>
+        </section>
+        <section class="seções">
+            <article class="filme">
+                <img src="../imagens/infiltrados.jpg" alt="">
+                <p>Os Infiltrados</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/garotaexmplar.webp" alt="">
+                <p>Garota Exemplar</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/ossuspeitos.jpg" alt="">
+                <p>Os Suspeitos</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/diamante de sangue.jpg" alt="">
+                <p>Diamante de Sangue</p>
+            </article>
+        </section>
+        <section class="seções">
+            <article class="filme">
+                <img src="../imagens/grandetruque.webp" alt="">
+                <p>O Grande Truque</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/truque de mestre.webp" alt="">
+                <p>Truque de Mestre</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/profissional.jpg" alt="">
+                <p>O Profissional</p>
+            </article>
+        </section>   
+           
+    </main>
+    <script>
+        document.getElementById("toggleSidebar").addEventListener("click", function() {
+            document.querySelector(".navbar").classList.toggle("active");
+        });
+    </script>
+    <script src="../jquery-3.7.1.min.js"></script>
+    <script src="categorias.js"></script>
 </body>
 </html>

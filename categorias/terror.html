@@ -7,46 +7,82 @@
     <title>Document</title>
 </head>
 <body>
+    <button id="toggleSidebar">☰ Menu</button>
     <nav class="navbar">
         <ul class="navbar-nav">
-            <li>
-                <a href="../index.html" class="nav-link">
-                    <span class="link-text">Principal</span>
-                </a>
-            </li>
+            <li><a href="../index.html" class="nav-link">Inicio</a></li>
             <li class="cat">Categorias:</li>
-            <li>
-                <a href="acao.html" class="nav-link">
-                    <span class="link-text">Ação</span>
-                </a>
-            </li>
-            <li>
-                <a href="comedia.html" class="nav-link">
-                    <span class="link-text">Comédia</span>
-                </a>
-            </li>
-            <li>
-                <a href="drama.html" class="nav-link">
-                    <span class="link-text">Drama</span>
-                </a>
-            </li>
-            <li>
-                <a href="romance.html" class="nav-link">
-                    <span class="link-text">Romance</span>
-                </a>
-            </li>
-            <li>
-                <a href="scifi.html" class="nav-link">
-                    <span class="link-text">SciFi</span>
-                </a>
-            </li>
-            <li>
-                <a href="suspense.html" class="nav-link">
-                    <span class="link-text">Suspense</span>
-                </a>
-            </li>
+            <li><a href="acao.html" class="nav-link">Ação</a></li>
+            <li><a href="comedia.html" class="nav-link">Comédia</a></li>
+            <li><a href="drama.html" class="nav-link">Drama</a></li>
+            <li><a href="romance.html" class="nav-link">Romance</a></li>
+            <li><a href="scifi.html" class="nav-link">Sci-Fi</a></li>
+            <li><a href="suspense.html" class="nav-link">Suspense</a></li>
         </ul>
-    </nav>    
-    <p>teste</p>
+    </nav>
+
+    <header>
+        <h1>SeenIT - Organização para sua maratona</h1>
+    </header>
+    <main>
+        <section class="seções">
+            <article>
+                <img src="../imagens/invocacao.jpg" alt="">
+                <p>Invocação do Mal</p>
+            </article>
+            <article>
+                <img src="../imagens/iluminado.jpg" alt="">
+                <p>O Iluminado</p>
+            </article>
+            <article>
+                <img src="../imagens/constantine.webp" alt="">
+                <p>Constantine</p>
+            </article>
+            <article>
+                <img src="../imagens/lugarsilencioso.jpg" alt="">
+                <p>Um Lugar Silencioso</p>
+            </article>
+        </section>
+        <section class="seções">
+            <article>
+                <img src="../imagens/it.webp" alt="">
+                <p>It - A Coisa</p>
+            </article>
+            <article>
+                <img src="../imagens/jogosmortais.webp" alt="">
+                <p>Jogos Mortais</p>
+            </article>
+            <article>
+                <img src="../imagens/nosferatu.avif" alt="">
+                <p>Nosferato</p>
+            </article>
+            <article>
+                <img src="../imagens/fauno.jpg" alt="">
+                <p>O Labirinto do Fauno</p>
+            </article>
+        </section>
+        <section class="seções">
+            <article>
+                <img src="../imagens/Halloween.jpg" alt="">
+                <p>Halloween</p>
+            </article>
+            <article>
+                <img src="../imagens/horapesadelo.webp" alt="">
+                <p>A Hora do Pesadelo</p>
+            </article>
+            <article>
+                <img src="../imagens/tubarao.jpg" alt="">
+                <p>Megatubarão</p>
+            </article>
+        </section>
+        <input type="button" value="filtrar" class="flitro">
+    </main>
+    <script>
+        document.getElementById("toggleSidebar").addEventListener("click", function() {
+            document.querySelector(".navbar").classList.toggle("active");
+        });
+    </script>
+    <script src="../jquery-3.7.1.min.js"></script>
+    <script src="categorias.js"></script>
 </body>
 </html>

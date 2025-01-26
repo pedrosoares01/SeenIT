@@ -7,46 +7,81 @@
     <title>Document</title>
 </head>
 <body>
+    <button id="toggleSidebar">☰ Menu</button>
     <nav class="navbar">
         <ul class="navbar-nav">
-            <li>
-                <a href="../index.html" class="nav-link">
-                    <span class="link-text">Principal</span>
-                </a>
-            </li>
+            <li><a href="../index.html" class="nav-link">Inicio</a></li>
             <li class="cat">Categorias:</li>
-            <li>
-                <a href="acao.html" class="nav-link">
-                    <span class="link-text">Ação</span>
-                </a>
-            </li>
-            <li>
-                <a href="comedia.html" class="nav-link">
-                    <span class="link-text">Comedia</span>
-                </a>
-            </li>
-            <li>
-                <a href="romance.html" class="nav-link">
-                    <span class="link-text">Romance</span>
-                </a>
-            </li>
-            <li>
-                <a href="scifi.html" class="nav-link">
-                    <span class="link-text">SciFi</span>
-                </a>
-            </li>
-            <li>
-                <a href="suspense.html" class="nav-link">
-                    <span class="link-text">Suspense</span>
-                </a>
-            </li>
-            <li>
-                <a href="terror.html" class="nav-link">
-                    <span class="link-text">Terror</span>
-                </a>
-            </li>
+            <li><a href="acao.html" class="nav-link">Ação</a></li>
+            <li><a href="comedia.html" class="nav-link">Comédia</a></li>
+            <li><a href="romance.html" class="nav-link">Romance</a></li>
+            <li><a href="scifi.html" class="nav-link">Sci-Fi</a></li>
+            <li><a href="suspense.html" class="nav-link">Suspense</a></li>
+            <li><a href="terror.html" class="nav-link">Terror</a></li>
         </ul>
-    </nav>  
-    <p>teste</p>
+    </nav>
+
+    <header>
+        <h1>SeenIT - Organização para sua maratona</h1>
+    </header>
+    <main>
+        <section class="seções">
+            <article class="filme">
+                <img src="../imagens/opoderosochefao.jpg" alt="">
+                <p>O Poderoso Chefão</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/sonholiberdade.webp" alt="">
+                <p>Um Sonho de Liberdade</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/listaschilinder.jpg" alt="">
+                <p>A Lista de Schindler</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/a espera de um milagre.jpg" alt="">
+                <p>À Espera de um Milagre</p>
+            </article>
+        </section>
+        <section class="seções">
+            <article class="filme">
+                <img src="../imagens/Saving_Private_Ryan_poster.jpg" alt="">
+                <p>O Resgate do Soldado Ryan</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/extrordinario.jpg" alt="">
+                <p>Extraordinário</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/titanic.jpg" alt="">
+                <p>Titanic</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/CidadedeDeus.jpg" alt="">
+                <p>Cidade de Deus</p>
+            </article>
+        </section>
+        <section class="seções">
+            <article class="filme">
+                <img src="../imagens/12 anos.jpeg" alt="">
+                <p>12 anos de escravidão</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/show de truman.jpg" alt="">
+                <p>O Show de Truman</p>
+            </article>
+            <article class="filme">
+                <img src="../imagens/sempre ao seu lado.jpg" alt="">
+                <p>Sempre ao Seu Lado</p>
+            </article>
+        </section>
+    </main>
+    <script>
+        document.getElementById("toggleSidebar").addEventListener("click", function() {
+            document.querySelector(".navbar").classList.toggle("active");
+        });
+    </script>
+    <script src="../jquery-3.7.1.min.js"></script>
+    <script src="categorias.js"></script>
 </body>
 </html>
