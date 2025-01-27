@@ -11,7 +11,7 @@ body {
 }
 
 .navbar {
-    width: 0; /* Começa oculta */
+    width: 0; 
     height: 100vh;
     position: fixed;
     background-color: rgb(40, 126, 255);
@@ -21,11 +21,11 @@ body {
     left: 0;
     top: 80px;
     box-shadow: 0px 0px 10px rgb(40, 126, 255);
-    overflow: hidden; /* Impede que o conteúdo apareça antes da barra abrir */
+    overflow: hidden; 
     white-space: nowrap;
 }
 .navbar.active {
-    width: 10rem; /* Tamanho quando aberta */
+    width: 10rem; 
 }
 
 .navbar-nav {
