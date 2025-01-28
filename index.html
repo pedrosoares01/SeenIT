@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 
-<body>
+<body class="corpo">
     <button id="toggleSidebar">☰ Menu</button>
     <nav class="navbar">
         <ul class="navbar-nav">
@@ -31,38 +31,32 @@
         </div>
     </header>
 
-    <main>
+    <main class="corpo">
         <section class="intro">
             <h2>
                 Assistir filmes não precisa ser complicado! Organize-se para aproveitar melhor sua maratona sem atrapalhar sua rotina. 
-                Crie categorias personalizadas e acompanhe o que deseja assistir ou já assistiu. 
-        </h2>
+                Acompanhe o que deseja assistir ou já assistiu. 
+            </h2>
         </section>
-        <div>
-            <h4>aqui irei ensinar como criar as categorias </h4>
-            <ul>
-                <li>Para criar uma categoria, clique no botão "Minhas Categorias" abaixo.</li>
-                <li>Em seguida, preencha o nome da categoria e escolha uma cor para identificá-la.</li>
-                <li>Por fim, clique em "Criar Categoria" e pronto! Sua categoria estará disponível para organizar seus filmes.</li>
-                <li>Para acessar as categorias ja criadas, clique no botao menu no canto superior esquerdo e la estara as categorias </li>
-                <li> para excluir alguma categoria clique ao botao ao lado dela "excluir"</li>
-        </div>
-        <section class="categoria-container">
-            <h2>Crie sua Categoria</h2>
-            <div id="organizar">
-                <label for="nomecategoria">Nome da categoria:</label>
-                <input type="text" id="nomecategoria" placeholder="Ex: Favoritos, Suspenses...">
-                <label for="corcategoria">Escolha uma cor:</label>
-                <input type="color" id="corcategoria" value="#000000">
-                <button id="criar" class="btn">Criar Categoria</button>
-                <button class="btn minimizarcategorias">Minhas Categorias</button>
-                
-            </div>
+        <section id="explicação">
+            <p>
+                Ao clicar no botão de menu você poderá acessar paginas de varias categorias de filmes.
+                entrando nelas será possível marcar os filmes que já assistiu e filtrar entre aqueles que não 
+                viu e que deseja assistir e os já vistos.
+            </p>
+        </section>
+        <section id="fotos-inicio">
+            <p>
+                Algumas sugestões de filmes para começar:
+            </p>
+            <img src="imagens/UNCHARTED KEY ART.jpeg" alt="" class="foto-principal" height="260px">
+            <img src="imagens/piratascaribe.jpg" alt="" class="foto-principal" height="260px">
+            <img src="imagens/forrest.jpeg" alt="" class="foto-principal" height="260px">
+            <img src="imagens/interestelar.jpg" alt="" class="foto-principal" height="260px">
         </section>
     </main>
-   
-    </script>
     <footer>
+        <p>© 2025 SALLUM BOMBADO</p>
        <a href="creditos.html" class="popUp">creditos</a>
     </footer>
 
@@ -73,8 +67,5 @@
             document.querySelector(".navbar").classList.toggle("active");
         });
     </script>
-    
-    
 </body>
-
 </html>

@@ -67,7 +67,7 @@ body {
     margin-top: auto;
 }
 #toggleSidebar {
-    position: fixed;
+    position: absolute;
     top: 20px;
     left: 20px;
     background-color: rgb(40, 126, 255);
@@ -154,7 +154,7 @@ h1 {
     text-decoration: none;
     background-color: rgb(40, 126, 255);
     border-radius: 25px;
-    padding: 7px;
+    padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -162,13 +162,68 @@ h1 {
     padding-left: 15px;
     padding-right: 15px;
     position: fixed;
-    bottom: 60px;
+    bottom: 10px;
     right: 60px;
     transition: background-color 0.2s linear;
     transition: box-shadow 0.1s linear;
+    z-index: 2;
 }
 
 .popUp:hover {
     background-color: rgb(55, 147, 253); 
     box-shadow: 0px 0px 10px rgb(29, 175, 243);
+}
+
+.foto-principal {
+    width: 12%;
+}
+
+.intro {
+    font-size: 20x;
+    padding: 20px;
+    padding-left: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 24px;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.4);
+    margin-bottom: 20px;
+    
+}
+
+.corpo {
+    background-color: rgb(168, 225, 252);
+}
+
+#explicação p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+#explicação {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+#fotos-inicio p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin-left: 2rem;
+}
+#fotos-inicio img {
+    margin-left: 7rem;
+    margin-right: 3rem;
+}
+
+footer {
+    background-color: #161b27;
+    color: white;
+    text-align: center;
+    padding: 6px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
 }
