@@ -4,12 +4,12 @@ body {
 }
 
 .cat{
+    font-family: 'Roboto', sans-serif; 
     color: white;
-    margin-bottom: 20px;
-    font-weight: 600;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 260px;
+    font-size: 27px;
+    text-shadow: 0px 0px 10px rgb(255, 255, 255, 0.4);
 }
-
 .navbar {
     width: 0; 
     height: 100vh;
@@ -169,7 +169,7 @@ h1 {
 }
 
 #popUp:hover {
-    background-color: rgb(191, 200, 210); 
+    background-color: rgb(10, 63, 124); 
     box-shadow: 0px 0px 10px rgb(199, 202, 204);
 }
 
@@ -188,6 +188,18 @@ main {
 .seções article {
     padding: 5rem;
     margin-left: 5rem;
+}
+
+.seções article img {
+    border: 5px solid transparent;
+    border-radius: 10px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.seções article img:hover {
+    transform: scale(1.1); 
+    border-color: rgb(255, 255, 255); 
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.8); 
 }
 
 .filtro {
