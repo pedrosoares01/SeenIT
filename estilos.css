@@ -4,7 +4,7 @@ body {
 }
 
 .cat{
-    color: white;
+    color: rgb(250, 247, 247);
     margin-bottom: 20px;
     font-weight: 600;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -14,13 +14,13 @@ body {
     width: 0; 
     height: 100vh;
     position: fixed;
-    background-color: rgb(40, 126, 255);
+    background-color: rgb(222, 226, 232);
     transition: width 0.3s ease;
     z-index: 3;
     bottom: 0;
     left: 0;
     top: 80px;
-    box-shadow: 0px 0px 10px rgb(40, 126, 255);
+    box-shadow: 0px 0px 10px rgb(233, 234, 236);
     overflow: hidden; 
     white-space: nowrap;
 }
@@ -70,7 +70,7 @@ body {
     position: absolute;
     top: 20px;
     left: 20px;
-    background-color: rgb(40, 126, 255);
+    background-color: rgb(229, 232, 236);
     color: white;
     border: none;
     padding: 10px 15px;
@@ -107,7 +107,7 @@ h1 {
     font-size: 20px;
     color: white;
     text-decoration: none;
-    background-color: rgb(40, 126, 255);
+    background-color: rgb(175, 192, 217);
     border-radius: 15px;
     padding: 5px;
     padding-left: 10px;
@@ -118,8 +118,8 @@ h1 {
 }
 
 #cadastrarIndex:hover {
-    background-color: rgb(55, 147, 253); 
-    box-shadow: 0px 0px 10px rgb(29, 175, 243);
+    background-color: rgb(216, 222, 228); 
+    box-shadow: 0px 0px 10px rgb(229, 231, 232);
 }
 
 #LogarIndex {
@@ -152,7 +152,7 @@ h1 {
     font-size: 23px;
     color: white;
     text-decoration: none;
-    background-color: rgb(40, 126, 255);
+    background-color: rgb(213, 217, 222);
     border-radius: 25px;
     padding: 5px;
     padding-left: 10px;
@@ -170,8 +170,8 @@ h1 {
 }
 
 .popUp:hover {
-    background-color: rgb(55, 147, 253); 
-    box-shadow: 0px 0px 10px rgb(29, 175, 243);
+    background-color: rgb(202, 211, 224); 
+    box-shadow: 0px 0px 10px rgb(219, 221, 223);
 }
 
 .foto-principal {
@@ -193,7 +193,7 @@ h1 {
 }
 
 .corpo {
-    background-color: rgb(168, 225, 252);
+    background-color: rgb(201, 223, 232);
 }
 
 #explicação p{
