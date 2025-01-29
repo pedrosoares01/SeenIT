@@ -116,3 +116,79 @@ h1 {
     color: rgb(185, 184, 184);
     font-size: 23px;
 }
+
+
+@media (max-width: 768px) {
+    .navbar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 0;
+        box-shadow: none;
+        padding: 10px;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    #toggleSidebar {
+        top: 10px;
+        left: 10px;
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .intro h2 {
+        font-size: 18px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #explicação {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #fotos-inicio {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .foto-principal {
+        width: 45%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .foto-principal {
+        width: 90%;
+    }
+
+    .intro h2 {
+        font-size: 16px;
+    }
+
+    #toggleSidebar {
+        font-size: 14px;
+    }
+}
+
+footer {
+    position: relative;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
