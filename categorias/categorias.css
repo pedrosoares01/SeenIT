@@ -14,13 +14,13 @@ body {
     width: 0; 
     height: 100vh;
     position: fixed;
-    background-color: rgb(40, 126, 255);
+    background-color: rgb(200, 206, 216);
     transition: width 0.3s ease;
     z-index: 3;
     bottom: 0;
     left: 0;
     top: 80px;
-    box-shadow: 0px 0px 10px rgb(40, 126, 255);
+    box-shadow: 0px 0px 10px rgb(203, 205, 208);
     overflow: hidden; 
     white-space: nowrap;
 }
@@ -70,7 +70,7 @@ body {
     position: absolute;
     top: 20px;
     left: 20px;
-    background-color: rgb(40, 126, 255);
+    background-color: rgb(182, 188, 196);
     color: white;
     border: none;
     padding: 10px 15px;
@@ -107,7 +107,7 @@ h1 {
     font-size: 20px;
     color: white;
     text-decoration: none;
-    background-color: rgb(40, 126, 255);
+    background-color: rgb(198, 202, 209);
     border-radius: 15px;
     padding: 5px;
     padding-left: 10px;
@@ -118,8 +118,8 @@ h1 {
 }
 
 #cadastrarIndex:hover {
-    background-color: rgb(55, 147, 253); 
-    box-shadow: 0px 0px 10px rgb(29, 175, 243);
+    background-color: rgb(212, 220, 228); 
+    box-shadow: 0px 0px 10px rgb(186, 189, 191);
 }
 
 #LogarIndex {
@@ -152,7 +152,7 @@ h1 {
     font-size: 23px;
     color: white;
     text-decoration: none;
-    background-color: rgb(40, 126, 255);
+    background-color: rgb(173, 177, 184);
     border-radius: 25px;
     padding: 7px;
     padding-left: 10px;
@@ -169,8 +169,8 @@ h1 {
 }
 
 #popUp:hover {
-    background-color: rgb(55, 147, 253); 
-    box-shadow: 0px 0px 10px rgb(29, 175, 243);
+    background-color: rgb(191, 200, 210); 
+    box-shadow: 0px 0px 10px rgb(199, 202, 204);
 }
 
 main {
@@ -182,7 +182,7 @@ main {
 }
 
 .visto {
-    background-color: rgb(73, 112, 197);
+    background-color: rgb(185, 204, 244);
 }
 
 .seções article {
@@ -195,7 +195,7 @@ main {
     position: absolute;
     top: 10px;
     right: 20px;
-    background-color: rgb(40, 126, 255);
+    background-color: rgb(178, 181, 187);
     color: white;
     border: none;
     padding: 10px 15px;
@@ -211,8 +211,8 @@ main {
 }
 
 .filtro:hover {
-    background-color: rgb(55, 147, 253); 
-    box-shadow: 0px 0px 10px rgb(29, 175, 243);
+    background-color: rgb(151, 155, 161); 
+    box-shadow: 0px 0px 10px rgb(217, 226, 230);
 }
 
 .assistidos {
@@ -221,7 +221,7 @@ main {
     top: 10px;
     transition: top 1s ease;
     right: 20px;
-    background-color: rgb(5, 83, 134);
+    background-color: rgb(115, 159, 184);
     color: white;
     border: none;
     padding: 10px 15px;
@@ -238,7 +238,7 @@ main {
     top: 10px;
     transition: top 1s ease;
     right: 20px;
-    background-color: rgb(5, 83, 134);
+    background-color: rgb(116, 164, 197);
     color: white;
     border: none;
     padding: 10px 15px 50px;
@@ -255,7 +255,7 @@ main {
     top: 10px;
     transition: top 1s ease;
     right: 20px;
-    background-color: rgb(5, 83, 134);
+    background-color: rgb(115, 159, 188);
     color: white;
     border: none;
     padding: 10px 15px;
@@ -283,7 +283,7 @@ main {
 }
 
 .cat-principal {
-    background-color: rgb(168, 225, 252);
+    background-color: rgb(204, 215, 220);
     position: relative;
     min-height: 100vh;
 }
@@ -305,3 +305,6 @@ footer {
 .push {
     height: 3rem;
 }
+
+
+
